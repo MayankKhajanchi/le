@@ -3,7 +3,7 @@ import './GMap.css';
 
 
 class GMap extends Component {
-
+  
   componentDidMount(){
     this.renderMap()
   }
@@ -44,16 +44,16 @@ class GMap extends Component {
         position: feature.position,
         icon: icons[feature.type].icon,
         map: map,
-        id: features.id
       });
-    });
+    }
+  );
 }
+
 
   render(){
       return(
         <main>
         <div id="map"></div>
-        {this.props.data.data[1].name}
         </main>
 
       );

@@ -34,11 +34,10 @@ class Counter extends React.Component {
   }
   render() {
     return (
-      <div style={{backgroundColor: 'lightgreen', width: 50}}>
+      <div style={{backgroundColor: 'lightgreen', width: 60}}>
         <span onClick={this.handleMinusOne}>-</span>
         <span style={{paddingLeft: 10, paddingRight: 10}}>{this.state.count}</span>
         <span onClick={this.handleAddOne}>+</span>
-        
       </div>
     );
   }

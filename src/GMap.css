@@ -1,7 +1,8 @@
 #map {
     height: 100vh;
-    width: 130vh;
+    width: 65%;
     float: left;
+    padding: 10px;
 }
 html, body {
     height: 100%;

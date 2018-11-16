@@ -12,11 +12,11 @@
 "id": "103297",
 "name": "Bevu (Neem)",
 "types": {
-"102205": {
-"name": "8X12",
-"quantity": 196,
-"price": 3
-}
+    "102205": {
+    "name": "8X12",
+    "quantity": "196",
+    "price": "3"    
+    }
 }
 },
 {
